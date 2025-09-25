@@ -1,5 +1,9 @@
 /* WEB ATELIER (UDIT) - Student Project Template Styles */
 
+body {
+    background-color: aquamarine;
+}
+
 /* Reset and base styles */
 * {
 	box-sizing: border-box;
@@ -16,7 +20,7 @@ html {
 body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 	color: #333;
-	background-color: #fff;
+	background-color: #fffbe3;
 	margin: 0;
 	padding: 0;
 }
