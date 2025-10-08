@@ -8,8 +8,8 @@
 
 /* Variables CSS básicas para Ejercicio 1 */
 :root {
-	--primary-color: #2563eb;
-	--secondary-color: #64748b;
+	--primary-color: #60cc80;
+	--secondary-color: #338867;
 	--accent-color: #f59e0b;
 	--white: #ffffff;
 	--border-color: #e2e8f0;
@@ -75,7 +75,7 @@ body {
 .hero-section {
 	text-align: center;
 	padding: var(--spacing-lg) 0; /* Móvil: padding reducido */
-	background: linear-gradient(135deg, var(--primary-color) 0%, #1e40af 100%);
+	background: linear-gradient(135deg, var(--primary-color) 0%, #338867 100%);
 	color: white;
 	margin: var(--spacing-lg) 0;
 	border-radius: var(--border-radius);
