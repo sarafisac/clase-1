@@ -149,7 +149,6 @@ h1 {
   font-family: "OCR-A", monospace;
 }
 
-
 /* ===== PORTAFOLIO RESPONSIVE CON TÉCNICAS MODERNAS ===== */
 
 :root {
@@ -456,9 +455,49 @@ b {
 }
 
 /* ===== Ajustes para móvil ===== */
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .iframe-wrapper {
     aspect-ratio: 4 / 3;
     margin: var(--spacing-lg) 0;
   }
+}
+
+/* ===== ESTILOS BASE (MÓVIL) ===== */
+/* Ya tienes mucho de esto hecho: fuente, tipografía fluida, contenedor, tarjetas en columna... */
+
+html {
+  font-size: 14px; /* un poco más pequeña en móvil */
+}
+
+.container {
+  padding: 0 var(--spacing-sm);
+}
+
+/* En móvil, las tarjetas van apiladas y la imagen ocupa todo el ancho */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* iframes más cuadrados en móvil */
+.iframe-wrapper {
+  aspect-ratio: 4 / 3;
+  margin: var(--spacing-md) 0;
+}
+
+/* tipografía adaptada */
+h1 {
+  font-size: 1.75rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.25rem;
 }
